@@ -1,0 +1,41 @@
+[Date]
+Color = 31
+Bold = true
+Italic = true
+Underline = false
+Strikethrough = false
+
+[Time]
+Color = 35
+Bold = false
+Italic = false
+Underline = false
+Strikethrough = false
+
+[OffsetPos]
+Color = 32
+Bold = false
+Italic = false
+Underline = false
+Strikethrough = false
+
+[OffsetNeg]
+Color = 33
+Bold = false
+Italic = false
+Underline = false
+Strikethrough = false
+
+[Airport]
+Color = 33
+Bold = false
+Italic = false
+Underline = false
+Strikethrough = false
+
+[City]
+Color = 33
+Bold = false
+Italic = false
+Underline = false
+Strikethrough = false
