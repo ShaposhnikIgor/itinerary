@@ -1,5 +1,6 @@
 Your flight departs from Los Angeles International Airport, and your destination is London Heathrow Airport at
 Flight Itinerary
+
 Line 1
 Line 2
 Line 1

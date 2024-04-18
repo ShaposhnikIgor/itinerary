@@ -1,5 +1,6 @@
 Your flight departs from #LAX, and your destination is ##EGLL at
 Flight Itinerary
+\r\r\r
 Line 1
 Line 2
 Line 1Line 2

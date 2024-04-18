@@ -850,3 +850,171 @@
 2024/04/15 23:50:50 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
 2024/04/15 23:50:50 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
 2024/04/15 23:50:50 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 18:57:23 /home/igor/itinerary/airport.go%!(EXTRA int=152, string=Airport lookup not found)
+2024/04/18 18:58:15 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 18:58:15 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 18:58:15 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 18:58:15 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 18:58:15 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 19:50:41 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 19:50:41 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 19:50:41 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 19:50:41 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 19:50:41 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:06:58 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 20:06:58 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:06:58 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:06:58 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:06:58 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:08:24 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 20:08:24 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:08:24 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:08:24 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:08:24 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:09:14 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 20:09:14 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:09:14 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:09:14 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:09:14 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:26:54 /home/igor/itinerary/airport.go:453: airport code not found: ##OOOO, #AAA
+2024/04/18 20:26:54 /home/igor/itinerary/airport.go:530: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:26:54 /home/igor/itinerary/airport.go:530: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:26:54 /home/igor/itinerary/airport.go:530: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:26:54 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:33:47 /home/igor/itinerary/airport.go:462: airport code not found: ##OOOO, #AAA
+2024/04/18 20:33:47 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:33:47 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:33:47 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:33:47 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:34:01 /home/igor/itinerary/airport.go:462: airport code not found: ##OOOO, #AAA
+2024/04/18 20:34:01 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:34:01 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:34:01 /home/igor/itinerary/airport.go:539: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:34:01 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:37:44 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 20:37:44 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:37:44 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:37:44 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:37:44 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:38:14 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 20:38:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:38:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:38:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:38:14 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:43:41 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 20:43:41 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:43:41 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:43:41 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:43:41 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:44:01 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 20:44:01 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:44:01 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:44:01 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:44:01 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 20:51:58 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 20:51:58 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:51:58 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:51:58 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:51:58 /home/igor/itinerary/airport.go:%!d(MISSING): processing of input completed
+2024/04/18 20:59:01 /home/igor/itinerary/airport.go:447: airport code not found: ##OOOO, #AAA
+2024/04/18 20:59:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:59:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:59:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 20:59:01 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:00:10 /home/igor/itinerary/airport.go:447: airport code not found: ##OOOO, #AAA
+2024/04/18 21:00:10 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:00:10 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:00:10 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:00:10 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:01:58 /home/igor/itinerary/airport.go:447: airport code not found: ##OOOO, #AAA
+2024/04/18 21:01:58 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:01:58 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:01:58 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:01:58 /home/igor/itinerary/airport.go:%!d(MISSING): processing of input completed
+2024/04/18 21:04:02 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 21:04:02 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:04:02 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:04:02 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:04:02 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:08:14 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 21:08:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:08:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:08:14 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:08:14 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:09:38 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 21:09:38 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:09:38 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:09:38 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:09:38 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:11:53 /home/igor/itinerary/airport.go:447: airport code not found: ##OOOO, #AAA
+2024/04/18 21:11:53 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:11:53 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:11:53 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:11:53 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:12:01 /home/igor/itinerary/airport.go:447: airport code not found: ##OOOO, #AAA
+2024/04/18 21:12:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:12:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:12:01 /home/igor/itinerary/airport.go:524: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:12:01 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:13:20 /home/igor/itinerary/airport.go:440: airport code not found: ##OOOO, #AAA
+2024/04/18 21:13:20 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:13:20 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:13:20 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:13:20 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:14:25 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 21:14:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:14:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:14:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:14:25 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:21:51 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 21:21:51 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:21:51 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:21:51 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:21:51 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:22:10 /home/igor/itinerary/airport.go:445: airport code not found: ##OOOO, #AAA
+2024/04/18 21:22:10 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:22:10 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:22:10 /home/igor/itinerary/airport.go:522: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:22:10 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:23:51 /home/igor/itinerary/airport.go:440: airport code not found: ##OOOO, #AAA
+2024/04/18 21:23:51 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:23:51 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:23:51 /home/igor/itinerary/airport.go:517: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:23:51 /home/igor/itinerary/airport.go:333: processing of input completed
+2024/04/18 21:26:25 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 21:26:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:26:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:26:25 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:26:25 /home/igor/itinerary/airport.go:333: processing of input completed
+2024/04/18 21:30:09 /home/igor/itinerary/airport.go:430: airport code not found: ##OOOO, #AAA
+2024/04/18 21:30:09 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:30:09 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:30:09 /home/igor/itinerary/airport.go:507: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:30:09 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:33:04 /home/igor/itinerary/airport.go:442: airport code not found: ##OOOO, #AAA
+2024/04/18 21:33:04 /home/igor/itinerary/airport.go:519: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:33:04 /home/igor/itinerary/airport.go:519: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:33:04 /home/igor/itinerary/airport.go:519: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:33:04 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:37:43 /home/igor/itinerary/airport.go:431: airport code not found: ##OOOO, #AAA
+2024/04/18 21:37:43 /home/igor/itinerary/airport.go:508: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:37:43 /home/igor/itinerary/airport.go:508: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:37:43 /home/igor/itinerary/airport.go:508: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:37:43 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:39:22 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:39:35 /home/igor/itinerary/airport.go: processing of input completed
+2024/04/18 21:50:47 /home/igor/itinerary/airport.go:466: airport code not found: ##OOOO, #AAA
+2024/04/18 21:50:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:50:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:50:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:50:47 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:51:16 /home/igor/itinerary/airport.go:466: airport code not found: ##OOOO, #AAA
+2024/04/18 21:51:16 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:16 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:16 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:16 /home/igor/itinerary/airport.go:336: processing of input completed
+2024/04/18 21:51:47 /home/igor/itinerary/airport.go:466: airport code not found: ##OOOO, #AAA
+2024/04/18 21:51:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:47 /home/igor/itinerary/airport.go:543: failed to parse time string: 2007-04-05T12:30-2:00: parsing time "2007-04-05T12:30-2:00" as "2006-01-02T15:04Z07:00": cannot parse "-2:00" as "Z07:00"
+2024/04/18 21:51:47 /home/igor/itinerary/airport.go:336: processing of input completed

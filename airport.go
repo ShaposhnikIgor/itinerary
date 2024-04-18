@@ -324,7 +324,7 @@ func parseSettingsFromFile(filename string) (map[string]TextFormattingSettings, 
 	return settingsMap, nil
 }
 
-// processInput processes text from the input file, converting airport codes and dates/times.
+// processInput обрабатывает текст из входного файла, преобразуя аэропортные коды и даты/время.
 func processInput(input io.Reader, airportLookup []AirportLookup, toStdOutput bool) string {
 	var outputText strings.Builder
 	scanner := bufio.NewScanner(input)
@@ -338,10 +338,10 @@ func processInput(input io.Reader, airportLookup []AirportLookup, toStdOutput bo
 	for scanner.Scan() {
 		line := scanner.Text()
 
-		// Convert airport codes
+		// Преобразование аэропортных кодов
 		line = convertAirportCodes(line, airportLookup, toStdOutput)
 
-		// Convert ISO dates and times
+		// Преобразование ISO дат и времени
 		line = convertISODateTime(line, toStdOutput)
 
 		// Trim leading and trailing whitespace
@@ -359,20 +359,56 @@ func processInput(input io.Reader, airportLookup []AirportLookup, toStdOutput bo
 		if line == "" {
 			consecutiveBlankLines++
 			if consecutiveBlankLines > 1 {
-				continue // Skip the record if more than one consecutive blank line
+				continue // Пропустить запись, если более одной последовательной пустой строки
 			}
 		} else {
-			consecutiveBlankLines = 0 // Reset the counter for consecutive blank lines
+			consecutiveBlankLines = 0 // Сбросить счетчик последовательных пустых строк
 		}
 
-		// Write the processed line to the output file
+		// Запись обработанной строки в выходной файл
 		outputText.WriteString(cleanNonASCIIChars(line) + "\n")
 	}
+
+	// Получаем итоговый текст после обработки ввода
+	processedInput := outputText.String()
 
 	// Log the completion of processing
 	log.Printf("%s:%d: processing of input completed", file, line)
 
-	return outputText.String()
+	// Сокращаем пустые строки до одной
+	finalOutput := reduceEmptyLines(processedInput)
+
+	return finalOutput
+}
+
+func reduceEmptyLines(input string) string {
+	// Разбиваем текст на строки
+	lines := strings.Split(input, "\n")
+
+	// Инициализируем переменную для хранения результата
+	var result strings.Builder
+
+	// Инициализируем флаг, который показывает, что предыдущая строка была пустой
+	prevEmpty := false
+
+	// Проходим по каждой строке
+	for _, line := range lines {
+		// Если строка не пустая, записываем ее
+		if line != "" {
+			// Если предыдущая строка была пустой, а текущая не пустая, добавляем пустую строку
+			if prevEmpty {
+				result.WriteString("\n")
+			}
+			result.WriteString(line + "\n")
+			// Сбрасываем флаг пустой строки
+			prevEmpty = false
+		} else {
+			// Если текущая строка пустая, устанавливаем флаг
+			prevEmpty = true
+		}
+	}
+
+	return result.String()
 }
 
 // cleanNonASCIIChars removes non-ASCII characters from a string
