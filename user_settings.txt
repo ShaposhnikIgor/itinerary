@@ -9,27 +9,27 @@ Strikethrough = false
 Color = 35
 Bold = false
 Italic = false
-Underline = false
-Strikethrough = false
+Underline = true
+Strikethrough = true
 
 [OffsetPos]
 Color = 32
 Bold = false
-Italic = false
+Italic = true
 Underline = false
-Strikethrough = false
+Strikethrough = true
 
 [OffsetNeg]
 Color = 33
-Bold = false
+Bold = true
 Italic = false
 Underline = false
-Strikethrough = false
+Strikethrough = true
 
 [Airport]
 Color = 33
-Bold = false
-Italic = false
+Bold = true
+Italic = true
 Underline = false
 Strikethrough = false
 
@@ -37,5 +37,5 @@ Strikethrough = false
 Color = 33
 Bold = false
 Italic = false
-Underline = false
-Strikethrough = false
+Underline = true
+Strikethrough = true

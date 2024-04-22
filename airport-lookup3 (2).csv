@@ -1,4 +1,4 @@
-iso_country,municipality,icao_code,iata_code,coordinates,name1
+name,iso_country,municipality,icao_code,iata_code,coordinates,name1
 ,SB,Honiara,AGGH,HIR,"160.05499267578, -9.4280004501343",Honiara International Airport
 ,CN,Aba,ZUHY,AHJ,"102.35224, 32.53154",Hongyuan Airport
 ,NR,Yaren District,ANYN,INU,"166.919006, -0.547458",Nauru International Airport

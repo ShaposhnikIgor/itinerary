@@ -1,15 +1,15 @@
 Your flight departs from #LAX, and your destination is ##EGLL at
 Flight Itinerary
-\r\r\r
-Line 1
-Line 2
+\r\r\r\r\r
+Line 1 *##AYMO
+Line 2 *#LAX
 Line 1Line 2
 Line 1
 Line 2
 
 
-#LAX to *##AYMO on D(2023-07-15T09:00-07:00)
-Departure: T12(2023-07-15T09:00-07:00)
+#LAX to *##AYMO on D(2023-07-15T09:00-07:00)  ##ZBAL
+Departure: T12(2023-07-15T09:00-07:00)  #AXF
 Arrival: T24(2023-07-16T12:00Z)
 
 #AXF   *#AXFS
@@ -21,9 +21,9 @@ Arrival: T24(2023-07-16T12:00Z)
 D(2023-07-15T09:00-07:00)\r
 ##OOOO to #AAA on D(2023-08-15T09:00-07:00)
 
-D(2022-05-09T08:07Z)
+D(2022-05-09T08:07Z) ����
 T12(2069-04-24T19:18-02:00)\f
-T12(2080-05-04T14:54Z)
+T12(2080-05-04T14:54Z) #LAX to *##AYMO
 T12(1980-02-17T03:30+11:00)\v
 T12(2029-09-04T03:09Z)
 

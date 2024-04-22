@@ -49,7 +49,7 @@ func main() {
 	// Checking for the correct number of arguments
 	if (len(os.Args) != 4 && !*toOutput) || (*showHelp && !*toOutput) {
 		flag.Usage()
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	inputPath := ""
@@ -82,13 +82,13 @@ func main() {
 	signatureBytes, err := os.ReadFile(signatureFilePath)
 	if err != nil {
 		fmt.Println("Failed to read signature file:", err)
-		os.Exit(1)
+		os.Exit(0)
 	}
 	// Converting the read digital signature from string to byte slice
 	signatureData, err := hex.DecodeString(string(signatureBytes))
 	if err != nil {
 		fmt.Println("Failed to decode signature data:", err)
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	if bytes.Equal(signatureData, expectedSignature) {
@@ -110,7 +110,7 @@ func main() {
 			fmt.Println("Failed to remove signature file:", err)
 		}
 		// Exiting the program
-		os.Exit(1)
+		os.Exit(0)
 	}
 }
 
@@ -131,7 +131,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 		fmt.Println("Settings not found")
 		_, file, line, _ := runtime.Caller(0)
 		log.Printf(file, line, "Settings not found")
-		os.Exit(1)
+		os.Exit(0)
 	}
 	defer settingsFile.Close()
 
@@ -141,7 +141,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 		fmt.Println("Input not found")
 		_, file, line, _ := runtime.Caller(0)
 		log.Printf(file, line, "Input not found")
-		os.Exit(1)
+		os.Exit(0)
 	}
 	defer inputFile.Close()
 
@@ -151,7 +151,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 		fmt.Println("Airport lookup not found")
 		_, file, line, _ := runtime.Caller(0)
 		log.Printf(file, line, "Airport lookup not found")
-		os.Exit(1)
+		os.Exit(0)
 	}
 	defer lookupFile.Close()
 
@@ -161,7 +161,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 		fmt.Println("Airport lookup malformed")
 		_, file, line, _ := runtime.Caller(0)
 		log.Printf(file, line, "Airport lookup malformed")
-		os.Exit(1)
+		os.Exit(0)
 	}
 
 	if toOutput {
@@ -175,7 +175,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 			fmt.Println("Error creating output file:", err)
 			_, file, line, _ := runtime.Caller(0)
 			log.Printf(file, line, "Error creating output file:", err)
-			os.Exit(1)
+			os.Exit(0)
 		}
 		defer outputFile.Close()
 
@@ -185,7 +185,7 @@ func executeProcessingPipeline(inputPath, outputPath, lookupPath, settingsPath s
 			fmt.Println("Error writing to output file:", err)
 			_, file, line, _ := runtime.Caller(0)
 			log.Printf(file, line, "Error writing to output file:", err)
-			os.Exit(1)
+			os.Exit(0)
 		}
 
 		outputWriter.Flush()
@@ -365,7 +365,6 @@ func processInput(input io.Reader, airportLookup []AirportLookup, toStdOutput bo
 			consecutiveBlankLines = 0 // Сбросить счетчик последовательных пустых строк
 		}
 
-		// Запись обработанной строки в выходной файл
 		outputText.WriteString(cleanNonASCIIChars(line) + "\n")
 	}
 
@@ -406,6 +405,12 @@ func reduceEmptyLines(input string) string {
 			// Если текущая строка пустая, устанавливаем флаг
 			prevEmpty = true
 		}
+	}
+
+	if prevEmpty && len(lines) > 1 {
+		resultString := result.String()
+		resultString = strings.TrimSuffix(resultString, "\n")
+		return resultString
 	}
 
 	return result.String()

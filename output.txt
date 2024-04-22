@@ -1,15 +1,15 @@
 Your flight departs from Los Angeles International Airport, and your destination is London Heathrow Airport at
 Flight Itinerary
 
-Line 1
-Line 2
+Line 1 Manus Island
+Line 2 Los Angeles
 Line 1
 Line 2
 Line 1
 Line 2
 
-Los Angeles International Airport to Manus Island on 15 Jul 2023
-Departure: 09:00AM (-07:00)
+Los Angeles International Airport to Manus Island on 15 Jul 2023  Alxa Left Banner Bayanhot Airport
+Departure: 09:00AM (-07:00)  Alxa Left Banner Bayanhot Airport
 Arrival: 12:00 (-07:00)
 
 Alxa Left Banner Bayanhot Airport   BayanhotS
@@ -22,10 +22,10 @@ Arrival: 12:00 (-07:00)
 
 ##OOOO to #AAA on 15 Aug 2023
 
-09 May 2022
+09 May 2022 
 07:18PM (-02:00)
 
-02:54PM (-07:00)
+02:54PM (-07:00) Los Angeles International Airport to Manus Island
 03:30AM (+11:00)
 
 03:09AM (-07:00)
