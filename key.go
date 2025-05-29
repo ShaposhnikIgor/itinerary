@@ -21,7 +21,6 @@ var (
 	}
 )
 
-// padMessage дополняет сообщение до правильного размера
 func padMessage(message []byte) []byte {
 	l := len(message)
 	message = append(message, 0x06)
@@ -32,7 +31,6 @@ func padMessage(message []byte) []byte {
 	return message
 }
 
-// keccakF обрабатывает блок данных с использованием алгоритма Keccak-f
 func keccakF(state *[25]uint64) {
 	var C [5]uint64
 	var D [5]uint64
@@ -47,15 +45,12 @@ func keccakF(state *[25]uint64) {
 	}
 }
 
-// hashSHA3256 вычисляет хеш SHA3-256 для входных данных
 func hashSHA3256(message []byte) []byte {
-	// Начальное состояние
+
 	state := [25]uint64{}
 
-	// Добавление padding
 	message = padMessage(message)
 
-	// Обработка блоков данных
 	for len(message) > 0 {
 		var block []byte
 		if len(message) >= blocksize {
@@ -79,7 +74,6 @@ func hashSHA3256(message []byte) []byte {
 		keccakF(&state)
 	}
 
-	// Возвращение хеша в виде массива байтов
 	result := make([]byte, 32)
 	for i := range result {
 		result[i] = byte((state[i/8] >> (8 * uint(i) % 64)) & 0xff)
@@ -89,13 +83,10 @@ func hashSHA3256(message []byte) []byte {
 }
 
 func startGeneretion() {
-	// Создаем цифровую подпись только из строки "IGOR GENNADIEVICH SHAPOSHNIK"
 	signature := createSignature("IGOR GENNADIEVICH SHAPOSHNIK")
 
-	// Преобразуем цифровую подпись в шестнадцатеричную строку
 	signatureHex := hex.EncodeToString(signature)
 
-	// Записываем шестнадцатеричную строку в файл signature.txt
 	file, err := os.Create("signature.txt")
 	if err != nil {
 		fmt.Println("Error creating file:", err)
@@ -110,10 +101,8 @@ func startGeneretion() {
 }
 
 func createSignature(data string) []byte {
-	// Преобразуем строку в массив байтов
 	message := []byte(data)
 
-	// Создаем хеш SHA3-256
 	hashedData := hashSHA3256(message)
 
 	return hashedData
